@@ -13,6 +13,7 @@ class JenkinwithspringbootApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("it's my test class");
+		logger.info("it's my test class 2");
 		assertEquals(true,true);
 	}
 
