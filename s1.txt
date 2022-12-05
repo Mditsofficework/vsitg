@@ -1,1 +1,23 @@
-hi hello welcome to mdits
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stages {
+        stage('build') {
+            steps {
+                echo 'welcome to build'
+            }
+        }
+        stages {
+        stage('Hello') {
+            steps {
+                echo 'jenkins build'
+            }
+        }
+    }
+}
