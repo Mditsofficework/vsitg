@@ -20,6 +20,7 @@ public class JenkinwithspringbootApplication implements CommandLineRunner {
 		logger.info("my second CI");
 		logger.info("my third CI");
 		logger.info("my fourth CI");
+		logger.info("my fifth CI");
 		
 	}
 
