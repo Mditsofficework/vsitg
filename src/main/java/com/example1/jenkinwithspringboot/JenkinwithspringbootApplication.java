@@ -18,6 +18,7 @@ public class JenkinwithspringbootApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		logger.info("my second CI");
+		logger.info("my third CI");
 		
 	}
 
